@@ -1,0 +1,415 @@
+@media (max-width: 1440px) {
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px;
+
+
+  }
+ 
+}
+@media (max-width: 576px) {
+  .heading-flex {
+    text-align: center;
+    margin-top: 50px;
+  
+  }
+  .heading-flex h1{
+    line-height: 30px;
+  }
+  .Provide p{
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .para-flex {
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+   
+  }
+  .btn-flex {
+    text-align: center;
+  }
+
+  .btn-flex a {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  .logo-responsive {
+    width: 100px;
+  }
+  .five-flex span {
+    font-size: 14px;
+  }
+  .about-us p {
+    text-align: justify;
+    letter-spacing: normal;
+  }
+  .about-us {
+    margin: 10px;
+  }
+  p {
+    line-height: 1.9;
+  }
+  .Learn-flex a {
+    font-size: 14px;
+  }
+  .why-rost{
+    width: 300px;
+  }
+  .Analytical-tyes h3{
+    font-size: 18px;
+  }
+  .Analytical-flex {
+    padding-bottom: 0px;
+  }
+  .corrugated p{
+    text-align: justify;
+    letter-spacing: normal;
+    font-size: 14px;
+  }
+  .line-bar{
+display: none;
+  }
+
+  .accordion-button{
+    font-size: 16px;
+  }
+  .form-asking{
+    text-align: center;
+  max-width: 100%;
+  }
+  .com-add{
+    display: none;
+  }
+  .form-control, option{
+    font-size: 16px;
+
+  }
+  .your p{
+    font-size: 14px;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  .Started{
+    position: absolute;
+
+  right: 25%;
+
+
+
+  color: #F8E643;
+  background-color: #333;
+
+  font-size: 10px;
+  font-weight: 400;
+  }
+  .input-container input{
+   width: 250px;
+  }
+  .footer-logo img {
+    width: 40%;
+}
+.your p{
+  display: none;
+}
+.Our-Values{
+  margin-top: 50px;
+}
+.heading-our p{
+  font-family: var(--head-font);
+font-size: 14px;
+font-weight: 400;
+
+
+}
+.head-flex h1{
+  line-height:normal;
+}
+.marketing{
+  max-width: 90%;
+}
+.ui-Ux  h1{
+  text-align: center;
+}
+.Cost-Effective h2{
+  font-size: 14px;
+ 
+  
+}
+
+.havebooing{
+  text-align: center;
+}
+.Free-Demo h4 {
+  font-size: 20px;
+}
+.Analytical-tyes{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.subscribe-section p{
+  display: none;
+}
+.Blog-back{
+  display: none;
+}
+.brand-logo img{
+  max-width: 45%;
+}
+header{
+  height: 0px;
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .heading-flex h1 {
+    font-size: 1.75rem;
+  }
+  @media (max-width: 768px) {
+    .footer-logo img {
+        width: 70%;
+    }
+
+  .para-flex p {
+    font-size: 1rem;
+  }
+
+  .logo-responsive {
+    width: 120px;
+  }
+
+  .btn-flex button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .five-flex span {
+    font-size: 18px;
+  }
+  .Learn-flex a {
+    font-size: 18px;
+  }
+  .content h6 {
+    font-size: 18px;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .Analytical-tyes h1{
+    font-size: 20px;
+  }
+  .line-bar{
+    position: relative;
+    transform: rotate(90deg);
+    position: absolute;
+  top: 250px;
+  left: 220px;
+  }
+
+  .input-container input{
+    width: 340px;
+   }
+ 
+   .list-unstyled{
+    font-size: 14px;
+  }
+  .card {
+    width: 100%;
+
+  }
+  .havebooing{
+    text-align: center;
+  }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .heading-flex h1 {
+    font-size: 2rem;
+  }
+  .footer-logo img {
+    width: 80%;
+}
+
+.footer-back {
+    padding: 2rem 1rem;
+}
+
+.footer-block {
+    flex-direction: column;
+    align-items: center;
+}
+
+.map iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.text-center p {
+    font-size: 0.875rem;
+}
+  .card {
+    width: calc(100% - 20px);
+  }
+  h1{
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+.input-container input{
+  width: 380px;
+ }
+ .footer-logo img {
+  width: 60%;
+}
+
+  .para-flex p {
+    font-size: 1.125rem;
+  }
+
+  .btn-flex button {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+  }
+  .logo-responsive {
+    width: 140px;
+  }
+  .five-flex span {
+    font-size: 20px;
+  }
+  .section-back {
+    margin-top: 20px;
+  }
+  .line-bar{
+    position: relative;
+    transform: rotate(90deg);
+    position: absolute;
+  top: 300px;
+  left: 300px;
+  height: 500px;
+  }
+  .Business{
+    display: flex;
+    flex-direction: column;
+
+}
+.havebooing{
+  text-align: center;
+}
+.why-rost{
+              
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+  
+}
+.Analytical-tyes{
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+.Analytical-tyes{
+  position:relative ;
+  left: 200px;
+  
+  
+}
+.hover-effect h3{
+  font-size: 30px;
+}
+.hover-number h1{
+  font-size: 80px;
+} 
+.form-del {
+  text-align: center;
+}
+.com-add {
+  display: none;
+}
+.get-box {
+  position: relative;
+
+
+
+
+  bottom: 50px;
+  left: 215px;
+
+}
+
+
+
+
+  
+}
+
+
+  
+
+
+@media (min-width: 992px) and (max-width: 1220px) {
+  .heading-flex h1 {
+    font-size: 2.25rem;
+  }
+     .nav-link, .dropdown-item {
+                font-size: 14px;
+            }
+  
+
+  .para-flex p {
+    font-size: 1.25rem;
+  }
+
+
+  .section-back {
+    margin-top: 20px;
+  }
+
+  .btn-flex button {
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+  }
+  .logo-responsive {
+    width: 180px;
+  }
+  .five-flex span {
+    font-size: 20px;
+  }
+  .line-bar{
+    position: relative;
+   
+    position: absolute;
+
+
+  height: 400px;
+
+  }
+ 
+
+  
+}
+}

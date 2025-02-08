@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Asstes/Css/style.css">
+    <link rel="stylesheet" href="Asstes/Media/media1024px.css">
+    <link rel="stylesheet" href="Asstes/Media/media1200px.css">
+    <link rel="stylesheet" href="Asstes/Media/media1400px.css">
+    <link rel="stylesheet" href="Asstes/Media/media320px.css">
+    <link rel="stylesheet" href="Asstes/Media/media576px.css">
+    <link rel="stylesheet" href="Asstes/Media/media992px.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Hahmlet:wght@100..900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Hahmlet:wght@100..900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Hahmlet:wght@100..900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="home-page">
+
+        <!-- Navber  start -->
+        <header>
+          <!-- Navber  start -->
+          <nav class="navbar navbar-expand-md fixed-top bg-light">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand brand-logo" href="/index.html">
+                    <img src="/Asstes/Images/Home/Rost Logo.svg" alt="Rost Tach" class="img-fluid">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon fas fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link " href="/index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active1" href="/aboutus.html">About us</a></li>
+                        <li class="nav-item dropdown">
+                          <a href="/services.html" class="nav-link dropdown-toggle" id="Services" >
+                            Service <i class="fas fa-chevron-down"></i>
+                        </a>
+                          <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
+                              <li><a class="dropdown-item" href="/Digital Marketing.html">Digital Marketing</a></li>
+                              <li><a class="dropdown-item" href="/Web Development.html">Web Development</a></li>
+                              <li><a class="dropdown-item" href="/Web Design.html">Web Design</a></li>
+                              <li><a class="dropdown-item" href="/Booking Engine.html">Hotel Booking Engine</a></li>
+                              <li><a class="dropdown-item" href="/CentralReservationOffice.html">Central Reservation Office</a></li>
+                              <li><a class="dropdown-item" href="/Branding.html">Branding</a></li>
+                          </ul>
+                      </li>
+                        <li class="nav-item"><a class="nav-link" href="/blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/leads.html">Leads</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact.html">Contact Us</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center d-none d-xl-flex" style="background: rgba(248, 230, 67, 1); border-radius: 12px;">
+                        <button class="btn Btn1 nav-btn" >
+                            <a href="#form">Reach out</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+  </header>
+        <!-- Navber end -->
+
+
+
+        <div class="container-fluid About-banner">
+            <div class="row About-tiltle">
+                <div class="col">
+                  <p><a href="/Index.html">Home <a href="/aboutus.html">> About us</a></a></p>
+                    <h1>About us</h1>
+                  
+                </div>
+            </div>
+        </div>
+
+       <section>
+            <div class="container">
+                     <div class="row mt-5 mb-5">
+                        <div class="col-sm-12 col-lg-6  col-md-12">
+                            <div class="about-Img px-4 py-5 text-center">
+                              <img src="Asstes/Images/About/aboutusimag.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6 col-md-12">
+                            <div class="titile-flex px-4 py-5">
+                                <h1>Heading About our vision</h1>
+                                <p>Introducing Rost Technology, a dynamic newcomer to the forefront of the IT industry, propelled by an unyielding commitment to innovation and a steadfast dedication to simplifying intricate technology for the advancement of businesses. Our journey begins with a firm foundation rooted in a relentless pursuit of excellence and an indomitable spirit for triumph, positioning us as a prominent provider of tailor-made IT solutions. Our expertise spans across diverse domains, where we excel in crafting cutting-edge web p  development projects, intuitive reservation systems, and robust customer relationship management platforms. </p>
+                            </div>
+                        </div>
+                     </div>
+            </div>
+        </section>
+        <section class="container-fluid why-rost-back pb-5 pt-5" id="Whyrost">
+          <div class="container pt-5">
+            <div class="row Analytical-flex " style="align-items: end;">
+              <div class="col-12 col-md-6 text-center order-1 order-lg-2">
+                <div class="why-rost">
+                  <h1>Why Rost?</h1>
+                  <p>At Rost Technology, our commitment to excellence shines through in our data-driven decision-making. When you choose us, you're selecting a partner dedicated to delivering exceptional results and driving your success forward.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg order-2 order-lg-1 "data-aos="fade-right"
+              data-aos-offset="500" 
+              data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <div class="row Analytical-tyes hover-effect">
+                  <div class="col-auto hover-number">
+                    <h1 >1</h1>
+                  </div>
+                  <div class="col hover-text">
+                    <h3>Analytical<br> Insight</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg order-3 order-lg-3"data-aos="fade-left"
+              data-aos-offset="500" 
+              data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <div class="row Analytical-tyes hover-effect">
+                  <div class="col-auto hover-number">
+                    <h1 >2</h1>
+                  </div>
+                  <div class="col hover-text">
+                    <h3>Creative<br>Solutions</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5" style="align-items: end;">
+              <div class="col-12 col-lg-4 order-6 order-lg-1"data-aos="fade-right"
+            
+              data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <div class="row Analytical-tyes hover-effect">
+                  <div class="col-auto hover-number">
+                    <h1>3</h1>
+                  </div>
+                  <div class="col hover-text">
+                    <h3 >Seamless<br>Launch <br> Process</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-5 order-4 order-lg-2" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+                <div class="row Analytical-tyes hover-effect">
+                  <div class="col-auto hover-number">
+                    <h1 >4</h1>
+                  </div>
+                  <div class="col hover-text">
+                    <h3 >Comprehensive<br>Branding and Marketing</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 order-5 order-lg-3"data-aos="fade-left"
+          
+              data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <div class="row Analytical-tyes hover-effect">
+                  <div class="col-auto hover-number">
+                    <h1 >5</h1>
+                  </div>
+                  <div class="col hover-text">
+                    <h3 >Dedicated<br>Support</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-- Missing closing div -->
+          <section>
+            <div class="container">
+                <div class="Provide pt-5 text-center">
+                    <div>
+                        <img src="Asstes/Images/Home/Service head.svg" alt="Services We Provide" width="100%">
+                    </div>
+                    <h1><span class="highlight">Our Values</span></h1>
+                </div>
+                <div class="row  pt-5 pb-5  justify-content-space-between px-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="Our-Values text-center px-3 py-3">
+                            <div class="values-img">
+                                <img src="Asstes/Images/About/Our 3.svg" alt="">
+                            </div>
+                            <div class="heading-our">
+                                <h6>Innovation</h6>
+                                <p>Transforming ideas into novel solutions that ignite progress and inspire change across industries.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="Our-Values text-center px-3 py-3 mt-3">
+                            <div class="values-img">
+                                <img src="Asstes/Images/About/Our 1.svg" alt="">
+                            </div>
+                            <div class="heading-our">
+                                <h6>Growth</h6>
+                                <p>A journey of improvement, unlocking potential, and achieving milestones through perseverance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="Our-Values text-center px-3 py-3 mt-3">
+                            <div class="values-img">
+                                <img src="Asstes/Images/About/Our 2.svg" alt="">
+                            </div>
+                            <div class="heading-our">
+                                <h6>Commitment</h6>
+                                <p>steadfast dedication, driving perseverance, and ensuring success through unwavering focus and loyalty.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="Our-Values text-center py-3 px-3 mt-3">
+                            <div class="values-img">
+                                <img src="Asstes/Images/About/Our 4.svg" alt="">
+                            </div>
+                            <div class="heading-our">
+                                <h6>Positivity</h6>
+                                <p>embracing life’s challenges with hope, optimism, and a resilient spirit for a brighter future.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+          <div class="container my-5">
+            <div class="change">
+                <div class="row text-center justify-content-center">
+                    <div class="col-12 ">
+                        <div class="subscribe-section">
+                            <h1>Ready to take your business to new heights</h1>
+                            <div class="row text-center">
+                                <p>Stay ahead of the curve with our exclusive newsletter<br> delivering the latest industry insights, trends, and insider tips directly to your inbox.</p>
+                                <form>
+                                    <div class="searchbox-wrap">
+                                        <input type="text" placeholder="Enter Your Mail">
+                                        <button><span>Get Started</span></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+        
+            
+    <div class="container-fluid footer-back pt-4">
+        <div class="container">
+          <footer class="text-white pt-4">
+            <div class="row">
+              <div class="col-lg-2 col-md-12 col-sm-6 mb-3">
+                <div class="footer-logo">
+                  <img src="Asstes/Images/Home/Rosticonima.svg" alt="Footer-Logo" class="img-fluid" width="90%">
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-6 mb-3">
+                <h6>Quick Links</h6>
+                <ul class="list-unstyled mt-2">
+                  <li><a href="/Index.html" class="text-white">Home</a></li>
+                  <li><a href="/aboutus.html" class="text-white">About us</a></li>
+                  <li><a href="/services.html" class="text-white">Services</a></li>
+                  <li><a href="#whyrost" class="text-white">Why ROST</a></li>
+                  <li><a href="#our products" class="text-white">Our Products</a></li>
+                  <li><a href="/blog.html" class="text-white">Blog</a></li>
+                  <li><a href="./contact.html" class="text-white">Contact us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                <h6>Services</h6>
+                <ul class="list-unstyled mt-2">
+                  <li><a href="/Digital Marketing.html" class="text-white">Digital marketing</a></li>
+                  <li><a href="/Branding.html" class="text-white">Branding</a></li>
+                  <li><a href="/Web Design.html" class="text-white">Web Design</a></li>
+                  <li><a href="Web Development.html" class="text-white">Web Development</a></li>
+                  <li><a href="/Central Reservation Office .html" class="text-white">Central Reservation Office (CRO)</a></li>
+                  <li><a href="/Booking Engine.html" class="text-white">Hotel Booking Engine</a></li>
+                  <li><a href="/Terms.html" class="text-white">Terms and condition</a> /<a href="/Private Policy.html" class="text-white">Private Policy</a></li>
+                  
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-6">
+                <div class="row footer-block">
+                  <div class="col-lg-10  col-sm-6 map mb-3">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3886.6793159685835!2d80.24371557507791!3d13.05607288726706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAzJzIxLjkiTiA4MMKwMTQnNDYuNyJF!5e0!3m2!1sen!2sin!4v1712344832087!5m2!1sen!2sin"
+                      width="90%" height="250px" style="border:0; border-radius: 12px;" allowfullscreen=""
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div class="col-lg-2 col-md-12 col-sm-12">
+                    <li class="mr-3 mb-2"><a href="https://www.linkedin.com/company/rost-technology/" class="social-icon link text-white"><img
+                      src="Asstes/Images/Home/Link.webp" alt="Link"></a></li>
+                <li class="mr-3 mb-2"><a href="" class="social-icon facebook text-white"><img
+                      src="Asstes/Images/Home/face (2).svg" alt="Facebook"></a></li>
+                <li class="mr-3 mb-2"><a href="#" class="social-icon twitter text-white"><img
+                      src="Asstes/Images/Home/twtter.svg" alt="Twitter"></a></li>
+                <li class="mr-3 mb-2"><a href="https://www.instagram.com/rosttechnology?igsh=MWl1MnV0Y2NnNmw5dA==" class="social-icon linkedin text-white"><img
+                      src="Asstes/Images/Home/insta (2).svg" alt="Instagram"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="hr">
+            <div class="row text-center">
+              <p>&copy; 2024 ROST TECHNOLOGY. All Rights Reserved</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+  
+    </div>
+  
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <body>
+
+
+
+</html>

@@ -1,0 +1,25 @@
+ @media (max-width: 768px) {
+            .nav-link, .dropdown-item {
+                font-size: 16px;
+                text-align: start;
+            }
+            .navbar-nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            .dropdown-menu {
+                position: static;
+                float: none;
+            }
+            .ui-Ux  h1{
+                text-align: center;
+             
+              }
+           
+          
+             
+
+          
+
+        
+        }

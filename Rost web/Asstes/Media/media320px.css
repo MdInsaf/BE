@@ -1,0 +1,23 @@
+
+        /* Adjustments for 320px and lower */
+        @media (max-width: 320px) {
+            .nav-link, .dropdown-item {
+                font-size: 9px;
+            }
+            .why-rost{
+                width: 250px;
+                position: relative;
+                bottom: 50px;
+            }
+            .Analytical-tyes{
+              margin-top: 30px;
+              margin-bottom: 30px;
+            }
+            .hover-text h3{
+                font-size: 16px;
+            }
+         
+
+
+            
+        }

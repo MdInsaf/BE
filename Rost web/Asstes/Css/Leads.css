@@ -1,0 +1,413 @@
+.Computer-back {
+  background-image: url(/Asstes/Images/Leads/computer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pricing{
+    padding-top: 50px;
+    font-family: "Alata";
+  font-size: 33.23px;
+  font-weight: 400;
+  
+  
+  }
+  .parent{
+    font-family: "Alata";
+  font-size: 19.94px;
+  font-weight: 400;
+  
+  color: #bbbbbb
+  ;
+  
+  }
+  .owl-carousel .owl-stage-outer{
+    overflow: visible !important;
+  }
+  .blog2-banner{
+    background-image: url(/Asstes/Images/blog/blog\ banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .blog2-banner a{
+    color: #fafafa;
+  }
+  .blog2-banner h1{
+    color: #fafafa;
+  }
+  .claim-today {
+    background-color: var(--custom-yellow);
+    color: var(--custom-black);
+     padding: 10px;
+    border-radius: 8px;
+    font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  
+  
+  }
+  
+  .secti-box{
+    background-color: var(--custom-black);
+  }
+  .feature-box h3{
+    color: #FDFDFD;
+    font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 50.8px;
+  
+  
+  }
+  .feature-box p{
+    font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  color: #FDFDFD ;
+   
+  }
+  .key-feature h3{
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+   
+  
+  
+    
+  }
+
+  
+  .feature-list
+  {list-style: none;}
+  
+  
+  .support{
+    line-height: 50px;
+  }
+  .feature-list img{
+   padding-bottom: 5px;
+  }
+  .head-flex h1{
+    line-height: 60px;
+  }
+  
+  
+  .card-title2{
+    font-size: 40px;
+    
+  
+  }
+
+  
+  
+  .get-start-btn{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400px;
+  
+    font-family: "Poppins";
+    background-color: #F8E543;
+  }
+  .get-start-btn:hover{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: "Poppins";
+    background-color: #F8E543;
+  }
+  
+   
+  .checkmark {
+    width: 10px;
+    height: 20px;
+    border: solid green;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    transform: rotate(45deg);
+  
+  }
+  
+  
+  .Happy-clients h1{
+    font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  
+  }
+  .worrymark {
+    width: 10px;
+    height: 20px;
+    position: relative;
+  }
+  
+  .worrymark::before, .worrymark::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 3px;
+    height: 100%;
+    background-color: red;
+  }
+  
+  .worrymark::before {
+    transform: rotate(45deg);
+  }
+  
+  .worrymark::after {
+    transform: rotate(-45deg);
+  }
+  .Get-start-button button{
+    padding: 5px;
+    border-radius: 12px;
+    margin: 20px 20px 40px 0px;
+    background-color: #F8E543;
+    border-radius: 20px;
+    border: #111111;
+  
+  
+  }
+  .Get-start-button button a{
+    padding: 5px;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 20px;
+     
+  
+  }
+
+  .leads-back{
+    background-color: var(--custom-yellow);
+  }
+  
+  
+  .testimonial .pic {
+    position: relative; /* Set the position relative for absolute positioning */
+  }
+  
+  .testimonial .pic img {
+    position: absolute; /* Position the image absolutely within the .pic div */
+    top: -90px; /* Adjusted top value to position the image above the testimonial box */
+    left: 50%; /* Position the image at the horizontal center */
+    transform: translateX(-50%); /* Adjust to center the image horizontally */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    
+  }
+  .clients-flex{
+    font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  
+  
+  
+  }
+  
+  
+  
+  .testimonial {
+  
+    border-radius: 10px;
+    padding: 20px;
+  box-shadow: 0px 4px 38px 0px #00000040;
+    
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto; /* Auto margins for horizontal centering */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Center vertically inside the testimonial */
+    align-items: center; /* Center horizontally inside the testimonial */
+  }
+  
+ 
+.owl-carousel .owl-wrapper-outer {
+    overflow:  visible !important;
+}
+  
+  
+  
+  .testimonial-profile {
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 20px;
+    
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+  padding-bottom: 100px;
+  }
+  
+  .owl-carousel .owl-nav {
+    display: none;
+  }
+  
+  .owl-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .owl-carousel .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: #ccc;
+    border-radius: 50%;
+  }
+  
+  .owl-carousel .owl-dot.active {
+    background: #333;
+  }
+  
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* .card-body {
+    padding: 2rem;
+} */
+
+.card-title {
+    font-size: 1.5rem;
+
+}
+
+.card-price {
+    font-size: 2.25rem;
+    color: var(--custom-yellow);
+}
+
+.card ul li {
+    font-size: 1rem;
+
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ffbb33;
+    border-color: var(--custom-yellow);
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+
+}
+.Blog-back{
+  background-color:#D9D9D9;
+}
+.Blog-back a{
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+  
+}
+.blog-card {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 28px 0px #00000033;
+  border-radius: 12px;
+
+}
+.small{
+  font-family: "Poppins";
+font-size: 10px;
+font-weight: 400;
+color: #555555;
+line-height: 28px;
+}
+.blog-card a{
+  font-family: "Poppins";
+font-size: 14px;
+font-weight: 500;
+}
+.blog-card span{
+  font-family: "Poppins";
+font-size: 20px;
+font-weight: 400;
+
+
+
+
+
+}
+.blog-card h6{
+  font-family: "Poppins";
+font-size: 20px;
+font-weight: 600;
+margin-top: 20px;
+
+
+
+}
+.blog-card p{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+
+
+}
+.Private-Policy-banner{
+  background-image: url(/Asstes/Images/blog/blog\ banner.svg);
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.Private-Policy-banner h1{
+   color: #fafafa;
+
+}
+.Private-Policy-banner  a{
+  color: #fafafa;
+}
+
+.Terms-banner h1{
+  color: #fafafa;
+
+}  
+.Terms-banner a{
+  color: #fafafa;
+}
+.Terms-banner{
+  background-image: url(/Asstes/Images/banner/Terms\ and\ Conditions.svg);
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.btn-primary{
+  background-color: #111111;
+  color: #F8E543;
+}
+.btn-primary:hover{
+  background-color: #111111;
+  color: #F8E543;
+}

@@ -1,0 +1,11 @@
+        /* Adjustments for 1200px and lower */
+        @media (max-width: 1200px) {
+            .nav-link, .dropdown-item {
+                font-size: 14px;
+            }
+            h1{
+                font-size: 36px;
+            }
+     
+            
+        }

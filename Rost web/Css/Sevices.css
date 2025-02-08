@@ -1,0 +1,314 @@
+
+:root {
+
+
+
+    --main-font: Arial, sans-serif;
+    --main-text-color: #333;
+    --background-color: #ffff;
+
+    
+    --line-height: 30px;
+    --custom-yellow: #f8e643;
+    --custom-gray: #555555;
+    --custom-black: #111111;
+    --custom-blue: #d9e9fe;
+    --custom-light-gray: #fafafa;
+    --custom-light-blue: #dde4f9;
+    --custom-light-yellow: #fffdea;
+    --head-font: "Poppins", sans-serif;
+    --head-font-size: 40px;
+    --head-font-weight: 600;
+    --para-font: "Poppins", sans-serif;
+    --para-font-size: 16px;
+    --para-font-weight: 400;
+  }
+  .About-tiltle p a{
+    color: var(--background-color);
+ }
+ .digital-banner{
+    background-color: #333;
+ }
+ .Cost-Effective h2{
+   margin-bottom: 20px;
+   margin-top: 10px;
+ 
+ }
+ .Cost-Effective{
+ background: linear-gradient(270deg, #FFFFFF 0%, #FFFDEA 95.42%);
+  ;
+ }
+ .Services-start {
+  background-color: #FFFDEA;
+  
+}
+.ui-IMPORTANT{
+  background-color: #555555;
+}
+
+
+
+
+
+.accordion {
+  background-color:#FFFDEA ;
+  color: #444;
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+
+
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+.accordion:hover {
+  background-color: #e2e2e2;
+}
+
+.accordion .plus {
+  float: right;
+}
+
+.panel {
+  padding: 0 15px;
+  background-color:#FFFDEA ;
+  display: none;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.Find-Your-Marketing {
+  background-color: var(--custom-black);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+color: var(--custom-yellow);
+ border-radius: 8px;
+
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Unique-Strategies{
+  box-shadow: 2px 2px 8px 0px #00000040;
+  background-color: #FFFFFF;
+
+  ;
+  border-radius: 8px;
+  padding: 30px;
+}
+.accordion.active .plus {
+  content: "-";
+}
+.tech-section {
+  background-color: #4a4a4a;
+  color: var(--background-color);
+
+}
+.tech-section {
+
+  position: relative;
+}
+.carrerimage-1,
+.carrerimage-2 {
+  position: absolute;
+}
+.carrerimage-1 {
+  bottom: 140px;
+  left: 10px;
+}
+.carrerimage-2 {
+bottom: 140px;
+  right: 10px;
+}
+.tech-icons img {
+  max-width: 80px;
+  margin: 20px;
+}
+.toggle-panel{
+  background-color: #FFFFFF;
+  color: #444;
+
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Poppins";
+  font-size: 24px;
+  border: 1px solid #C0C0C0;
+  box-shadow: 1x 1x 1px 1px ;
+  font-weight: 500;
+  border-radius: 8px 8px 8px 8px;
+  text-align:justify;
+}
+.plus {
+  float: right;
+}
+.ui-Ux h1{
+    color: var(--background-color);
+}
+.COLOR{
+  color: var(--custom-yellow);
+  
+}
+.Benefits-Booking{
+  background-color: #555555;
+  border-radius: 20px;
+}
+.relationships p{
+  color:var(--background-color) ;
+}
+.Benefits-Booking h1{
+      color: var(--custom-yellow);
+}
+.orders{
+  color: var(--custom-yellow);
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 400;
+
+
+}
+.havebooing button{
+   background-color: var(--custom-black);
+   padding: 10px;
+   border-radius: 8px;
+   border: 0px;
+}
+.havebooing a{
+  color: var(--custom-yellow);
+  font-size: 16px;
+  font-weight: 400;
+}
+.Bookin-engine{
+  background-image: url(/Asstes/Images/Services/back\ booking.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Free-Demo button {
+  background-color: #FFC300;
+   border: #00000040;
+  border-radius: 4px;
+}
+.Free-Demo a{
+  font-family: "Poppins";
+font-size: 20px;
+font-weight: 400;
+padding: 10px;
+color: var(--custom-black);
+
+
+}
+.Free-Demo h4{
+  color: #fafafa;
+  font-family: "Poppins";
+font-size: 28px;
+font-weight: 400;
+
+}
+.digital-banner{
+  background-image: url(/Asstes/Images/Services/Service\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.webdev-banner{
+  background-image: url(/Asstes/Images/Services/Service\ 2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.webdesign-banner{
+  background-image: url(/Asstes/Images/Services/Service\ 3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hotel-banner{
+  background-image: url(/Asstes/Images/Services/Service\ 4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Central-banner{
+  background-image: url(/Asstes/Images/Services/Service\ 5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Branding-banner{
+  background-image: url(/Asstes/Images/Services/Service\ 6.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ux-back{
+  background-image: url(/Asstes/Images/Services/UX.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+.ui-back{
+  background-image: url(/Asstes/Images/Services/UI.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.About-tiltle  h1{
+ color: #000000;
+ text-shadow: none;
+}
+.About-tiltle p a{
+  color: #111111;
+  text-shadow: none;
+ }
+ .tech-section h1{
+  color: #fafafa;
+ }
+.Central-banner h1{
+  color: #111111;
+}
+
+
+/* 
+.tech-section {
+  background-color: #4a4a4a;
+  color: var(--background-color);
+
+}
+.tech-section {
+
+  position: relative;
+}
+.carrerimage-1,
+.carrerimage-2 {
+  position: absolute;
+}
+.carrerimage-1 {
+  top: 10px;
+  left: 10px;
+}
+.carrerimage-2 {
+  bottom: 10px;
+  right: 10px;
+}
+.tech-icons img {
+  max-width: 80px;
+  margin: 20px;
+} */
+
+.Central-banner  h1{
+color: #111111;
+}
+
+
+ 

@@ -1,0 +1,63 @@
+   /* Adjustments for 1024px and lower */
+   @media (max-width: 1024px) {
+    .nav-link, .dropdown-item {
+        font-size: 13px;
+  
+    }
+    p {
+        font-size: 14px; 
+      }
+      h1{
+        font-size: 36px;
+        line-height: 40px;
+      }
+      .five-flex span{
+        font-size: 16px;
+      }
+      .content h6{
+        font-size: 18px;
+      }
+      .content  p{
+        font-size: 16px;
+         line-height: 30px;
+
+      }
+      .why-rost p{
+        font-size: 16px;
+     
+      }
+    .hover-number h1{
+        font-size: 100px;
+    }
+    .hover-text h3{
+        font-size: 20px;
+    }
+    .line-bar{
+      height: 380px;
+    }
+    .card {
+      width: calc(100% - 30px);
+    }
+  .feature-box h3{
+    font-size: 36px;
+  }
+  .feature-box p{
+       font-size: 16px;
+  }
+  .key-feature h3{
+    font-size: 20px;
+  
+  }
+  .key-feature p{
+    font-size: 14px;
+  
+  
+  }
+  .Cost-Effective h2{
+    font-size: 18px;
+  }
+  .Free-Demo h4 {
+    font-size: 24px;
+  }
+    
+}
